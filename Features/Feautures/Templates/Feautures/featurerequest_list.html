@@ -1,0 +1,19 @@
+{% extends "Feautures/base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Feature Requests App</h1>
+<a href="{% url 'feature_form' %}" class="button button5"><img src="{% static 'css/if_Plus_206460.svg' %}" width="100" height="100" /></a>
+
+
+<ul> 
+    {% for x in object_list %}
+    <li><a href="{% url 'featurerequest_detail' x.id %}">{{ x.title }}</a><a href="{% url 'featurerequest_confirm_delete' x.id %}">
+        <img src="{% static 'css/if_icon-ios7-trash_211836.svg' %}" width="20" height="20" /></a><a href="{% url 'feature_update_form' x.id %}"><img src="{% static 'css/if_JD-01_2259889.svg' %}" width="30" height="30" /></a> 
+	</li>
+        
+    
+    {% endfor %}
+</ul>
+
+{% endblock %}
