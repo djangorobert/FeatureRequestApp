@@ -19,5 +19,8 @@ To go to the homepage go to: 127.0.0.1:8000/features
 
 ![Alt text](/Features/Feautures/static/css/featurerequestsnap.JPG?raw=true)
 ![Alt text](/Features/Feautures/static/css/featurerequestsnap2.JPG?raw=true)
+![Alt text](/Features/Feautures/static/css/addformfeaturerequest.JPG?raw=true)
+![Alt text](/Features/Feautures/static/css/featurerequestapi.JPG?raw=true)
+![Alt text](/Features/Feautures/static/css/featurerequestapi2.JPG?raw=true)
 
 
