@@ -17,5 +17,8 @@ To see the API go to this url: 127.0.0.1:8000
 To go to the homepage go to: 127.0.0.1:8000/features
 
 
-![Alt text](/relative/path/to/featurerequestsnap.JPG?raw=true "Optional Title")
-![Alt text](/relative/path/to/featurerequestsnap2.JPG?raw=true "Optional Title")
+
+![Screenshot](featurerequestsnap.JPG)
+![Screenshot](featurerequestsnap2.JPG)
+
+
